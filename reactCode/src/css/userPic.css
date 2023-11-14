@@ -1,0 +1,41 @@
+.user-profile {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .user-pic {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+  }
+
+  .user-pic img, .user-pic .user-initials {
+    border-radius: 50%;
+    width: 93%;
+    height: 93%;
+    object-fit: cover;
+  }
+
+.user-pic .user-initials{
+background: brown;
+font-size: 11px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: Arial;
+}
+
+  .status-indicator {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+  }
+
+
